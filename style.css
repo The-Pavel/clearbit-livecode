@@ -9,3 +9,41 @@
 #resultsContainer {
   height: 70vh;
 }
+
+.header {
+  display: flex;
+}
+
+.header img {
+  height: 60px;
+}
+
+body {
+  background-color: lightblue;
+  font-family: helvetica;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 20vw;
+}
+
+#userName {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  font-weight: 100;
+}
+
+.title {
+  font-weight: 700;
+}

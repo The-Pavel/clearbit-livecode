@@ -7,28 +7,28 @@
   </head>
   <body>
     <h1>ClearBit Demo</h1>
-    <form action="#" id="clearbitForm">
+    <form action="#" id="formContainer">
       <input type="text" placeholder="Stalk someone" id="clearbitEmail">
       <input type="submit" id="clearbitSubmit">
     </form>
-    <table>
-      <tr>
-        <td>Name</td>
-        <td id="userName"></td>
-      </tr>
-      <tr>
-        <td>Email</td>
-        <td id="userEmail"></td>
-      </tr>
-      <tr>
-        <td>Bio</td>
-        <td id="userBio"></td>
-      </tr>
-      <tr>
-        <td>Location</td>
-        <td id="userLocation"></td>
-      </tr>
-    </table>
+    <div class="container">
+      <div class="header">
+        <img src="" alt="" id="userAvatar">
+        <h2 id="userName"></h2>
+      </div>
+      <div class="row">
+        <p class="title">Site</p>
+        <p id="userSite"></p>
+      </div>
+      <div class="row">
+        <p class="title">Bio</p>
+        <p id="userBio"></p>
+      </div>
+      <div class="row">
+        <p class="title">Location</p>
+        <p id="userLocation"></p>
+      </div>
+    </div>
     <script src="build/application.js"></script>
   </body>
 </html>
